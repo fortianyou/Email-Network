@@ -1,0 +1,21 @@
+
+/* Style of the node drawn in svg <circle> tag */
+circle.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+/* Style of the edge drawn in svg <line> tag */
+line.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+div#container{width:1400px}
+div#header {background-color:#99bbbb;}
+div#content {background-color:#EEEEEE; height:500px; width:1400px; float:left;}
+div#footer {background-color:#99bbbb; clear:both; text-align:center;}
+h1 {margin-bottom:0;}
+h2 {margin-bottom:0; font-size:14px;}
+ul {margin:0;}
+li {list-style:none;}

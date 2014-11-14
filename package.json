@@ -1,0 +1,71 @@
+{
+  "name": "netseer",
+  "version": "0.0.1",
+  "description": "A free JavaScript library on d3 to extend network visualization functionalities.",
+  "keywords": [
+    "dom",
+    "w3c",
+    "visualization",
+    "svg",
+    "animation",
+    "canvas"
+  ],
+  "homepage": "http://dataseer.net",
+  "author": {
+    "name": "Lei Shi",
+    "url": "http://lcs.ios.ac.cn/~shil"
+  },
+  "contributors": [
+    {
+      "name": "TBD",
+      "url": "TBD"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "main": "index.js",
+  "browserify": "netseer.js",
+  "jspm": {
+    "main": "netseer",
+    "shim": {
+      "netseer": {
+        "exports": "netseer"
+      }
+    },
+    "files": [
+      "netseer.js"
+    ],
+    "buildConfig": {
+      "uglify": true
+    }
+  },
+  "jam": {
+    "main": "netseer.js",
+    "shim": {
+      "exports": "netseer"
+    }
+  },
+  "spm": {
+    "main": "netseer.js"
+  },
+  "dependencies": {
+    "jsdom": "0.5.7"
+  },
+  "devDependencies": {
+    "smash": "~0.0.12",
+    "uglify-js": "2.4.0",
+    "vows": "0.7.0",
+    "seedrandom": "2.3.1"
+  },
+  "scripts": {
+    "test": "vows; echo"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "TBD"
+    }
+  ]
+}
